@@ -194,7 +194,7 @@ BOARD_SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     $(DEVICE_PATH)/sepolicy/private
 
 
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+BOARD_SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/samsung_slsi/sepolicy/common/public
 
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
